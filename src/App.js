@@ -2,7 +2,6 @@ import searchIcon from './search.svg';
 import './App.css';
 import {useState, useEffect} from 'react';
 import MovieCard from './MovieCard';
-// OMDB API key: 26fe060b
 const API_URL = 'http://www.omdbapi.com/?apikey=26fe060b';
 
 function App() {
